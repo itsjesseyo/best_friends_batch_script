@@ -1,15 +1,6 @@
 import csv
 from datetime import datetime
 
-direct_keys = ['registration_name', 'max_reservations', 'registration_description']
-date_keys = {
-	'registration_start_datetime':['registration_start_date_full', 'registration_start_time'],
-	'registration_end_datetime':['registration_end_date_full', 'registration_end_time']
-}
-value_keys = {
-	'signup_start_days_before':60,
-	'signup_start_days_before':0
-}
 date_mapping = {
 	'2017-04-26':'2017-09-20',
 	'2017-04-27':'2017-09-21',
